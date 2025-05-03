@@ -1,15 +1,15 @@
 import React from "react";
-import Signup from "./components/Signup.JSX";
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./components/HomePage.JSX";
-import Login from "./components/Login.JSX";
 import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import io from "socket.io-client";
 import { setSocket } from "./redux/socketSlice";
 import { setOnlineUsers } from "./redux/userSlice";
 import { BASE_URL } from "./utils/constant";
+import Signup from "./Components/Signup";
+import HomePage from "./Components/Homepage";
+import Login from "./Components/Login";
 
 const router = createBrowserRouter([
   {
