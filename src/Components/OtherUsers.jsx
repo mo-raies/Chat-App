@@ -1,5 +1,5 @@
 import React from "react";
-import OtherUser from "./OtherUser";
+import OtherUser from "./OtherUser.jsx";
 import useGetOtherUsers from "../hooks/useGetOtherUsers";
 import { useSelector } from "react-redux";
 
