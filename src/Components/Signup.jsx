@@ -80,6 +80,7 @@ const Signup = () => {
               className="w-full input input-bordered h-10"
               type="password"
               placeholder="Password"
+              minLength={6}
             />
           </div>
           <div>
