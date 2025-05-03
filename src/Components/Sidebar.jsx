@@ -12,7 +12,7 @@ import {
 } from "../redux/userSlice";
 import { setMessages } from "../redux/messageSlice";
 import { BASE_URL } from "../utils/constant";
-import OtherUsers from "./otherUsers";
+import OtherUsers from "./OtherUsers";
 
 const Sidebar = () => {
   const [search, setSearch] = useState("");
