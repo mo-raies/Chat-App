@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Messages from "./Messages";
 import { useSelector, useDispatch } from "react-redux";
 import { setSelectedUser } from "../redux/userSlice";
-import SendInput from "./Sendinput";
+import SendInput from "./SendInput";
 
 const MessageContainer = () => {
   const { selectedUser, authUser, onlineUsers } = useSelector(
